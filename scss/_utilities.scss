@@ -1,3 +1,13 @@
+// Container
+
+.container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 6rem;
+}
+
 //Text Styles
 
 .x-large {
@@ -15,6 +25,10 @@
 .lead {
     font-size: 1.5em;
     margin-bottom: 1rem;
+}
+
+.text-primary {
+    color: $primary-color;
 }
 
 // Backgrounds
@@ -59,6 +73,7 @@
     margin-right: 0.5rem;
     outline: none;
     transition: all 0.2s ease-in;
+    border: none;
 
     &.btn-primary {
         @include set-background($primary-color);
